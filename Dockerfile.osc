@@ -1,0 +1,7 @@
+FROM glitchtip/glitchtip:latest
+
+EXPOSE 8080
+
+COPY --chmod=755 osc-entrypoint.sh /usr/local/bin/osc-entrypoint.sh
+ENTRYPOINT ["/usr/local/bin/osc-entrypoint.sh"]
+CMD ["./bin/start.sh"]

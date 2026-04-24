@@ -1,0 +1,6 @@
+.git
+.env
+*.md
+heroku.yml
+app.json
+app-platform.yaml
