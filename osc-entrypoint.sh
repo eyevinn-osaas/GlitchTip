@@ -107,8 +107,6 @@ export MEDIA_ROOT="/data/media"
 echo "Set MEDIA_ROOT to: /data/media"
 export STATIC_ROOT="/data/static"
 echo "Set STATIC_ROOT to: /data/static"
-export DATABASE_URL="postgresql://user:pass@localhost/db (with data in /data/postgres)"
-echo "Set DATABASE_URL to: postgresql://user:pass@localhost/db (with data in /data/postgres)"
 
 # Enhanced Configuration File Generation
 echo "Generating configuration files from environment variables..."
